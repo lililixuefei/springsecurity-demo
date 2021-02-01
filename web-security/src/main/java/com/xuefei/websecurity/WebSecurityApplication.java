@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 @SpringBootApplication
-@MapperScan("com.atguigu.securitydemo1.mapper")
+@MapperScan("com.xuefei.websecurity.mapper")
 @EnableGlobalMethodSecurity(securedEnabled=true,prePostEnabled = true)
-public class Securitydemo1Application {
+public class WebSecurityApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Securitydemo1Application.class, args);
+        SpringApplication.run(WebSecurityApplication.class, args);
     }
 
 }
