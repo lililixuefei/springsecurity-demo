@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xuefei</groupId>
-    <artifactId>chrf-security</artifactId>
+    <artifactId>csrf-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ch07-security</name>
+    <name>csrf-security</name>
     <description>Csrf 案例</description>
 
     <properties>
